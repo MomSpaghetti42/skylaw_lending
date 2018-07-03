@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Skylaw</title>
+	<link rel="shortcut icon" href="img/browser_logo.png" type="image/x-icon">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+</head>
+<body>
+	<div class="main_block">
+		<header>
+			<a class="header__logo" href="#"> 
+			   <img src="img/logo.png" alt="Skylaw" />  
+			</a>
+			<nav class="header__nav menu-menu">
+				<a href="#sys" class="menu-item">Про систему</a>
+				<a href="#price" class="menu-item">Ціни</a>
+				<a href="#av" class="menu-item">Можливості</a>
+				<a class="transparent-button nav-button">Вхід в систему</a>
+				<a class="blue-button nav-button" onclick="openReg()">Реєстрація</a>
+				<a href="#" class="helper"></a>
+			</nav>
+			<div class="respon-menu">
+				<div class="menu-button"></div>
+				<ul class="respon-menu__nav menu-menu">
+					<li><a href="#sys">Про систему</a></li>
+					<li><a href="#price">Ціни</a></li>
+					<li><a href="#av">Можливості</a></li>
+					<li><a class="respon-blue">Вхід в систему</a></li>
+					<li><a class="respon-blue" onclick="openReg()">Реєстрація</a></li>
+				</ul>
+			</div>
+			<div class="cl"></div>
+		</header>
+		<section class="info-section">
+			<img class="laptop" src="img/lapptop.png">
+			<div class="info">
+				<h2>Спеціалізована CRM система для юридичних компаній, адвокатів та юристів</h2>
+				<p>Створено для тих хто хоче створювати та розвивати прозорий, та ефективний юридичний бізнес індивідуально чи в складі юридичної компанії</p>
+				<button class="blue-button">Спробувати безкоштовно</button>
+			</div>
+			<div class="cl"></div>
+		</section>
+		<section id="sys" class="blue-section gallery-section">
+			<div class="gallery">
+				<ul class="gallery__tittles">
+				</ul>
+				<div class="scroll">
+					<div class="left-arrow"></div>
+					<ul class="scroll-item-block">
+					</ul>
+					<div class="right-arrow"></div>
+				</div>
+				<figure class="gallery__item">
+					<div class="screenshot">
+						<img src="#" class="gallery__img">
+						<svg class="magnifier" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g id="Canvas" transform="translate(-915 -659)">
+							<g id="Subtract">
+							<use xlink:href="#path0_fill" transform="translate(915.206 659.221)"/>
+							</g>
+							</g>
+							<defs>
+							<path id="path0_fill" fill-rule="evenodd" d="M 73.5875 36.7787C 73.5875 57.0911 57.1144 73.5574 36.7938 73.5574C 16.4731 73.5574 0 57.0911 0 36.7787C 0 16.4664 16.4731 0 36.7938 0C 57.1144 0 73.5875 16.4664 73.5875 36.7787ZM 55.8184 51.1122L 46.9392 42.2369C 49.079 39.1492 50.1495 35.7077 50.1495 31.9122C 50.1495 29.4454 49.6703 27.0861 48.7122 24.835C 47.7546 22.5834 46.4601 20.6428 44.8293 19.0126C 43.1984 17.3823 41.2573 16.0884 39.0053 15.1311C 36.7526 14.1735 34.3926 13.6948 31.9247 13.6948C 29.4571 13.6948 27.0969 14.1735 24.8448 15.1311C 22.5925 16.0884 20.651 17.3823 19.0201 19.0126C 17.3891 20.6428 16.0948 22.5838 15.1371 24.835C 14.1793 27.0864 13.7003 29.4454 13.7003 31.9122C 13.7003 34.3789 14.1793 36.7374 15.1371 38.9891C 16.0947 41.2403 17.3891 43.1807 19.0201 44.8115C 20.651 46.4417 22.5928 47.7351 24.8448 48.6929C 27.0972 49.6503 29.4571 50.1289 31.9247 50.1289C 35.7219 50.1289 39.1649 49.0588 42.254 46.92L 51.1331 55.7695C 51.7544 56.4249 52.53 56.7529 53.4627 56.7529C 54.3775 56.7529 55.1581 56.4296 55.8054 55.7826C 56.4527 55.1357 56.7759 54.3553 56.7759 53.4409C 56.7759 52.5265 56.457 51.7505 55.8184 51.1122ZM 40.118 40.1013C 37.8486 42.3701 35.1178 43.5045 31.9247 43.5045C 28.7323 43.5045 26.0014 42.3699 23.7319 40.1013C 21.4623 37.8328 20.3276 35.1035 20.3276 31.9117C 20.3276 28.7205 21.4626 25.9902 23.7319 23.722C 26.001 21.4533 28.7323 20.3192 31.9247 20.3192C 35.1174 20.3192 37.8483 21.4538 40.118 23.722C 42.3878 25.9902 43.5225 28.7205 43.5225 31.9117C 43.5225 35.1035 42.3874 37.8328 40.118 40.1013ZM 33.5823 30.2561L 39.381 30.2561C 39.6056 30.2561 39.7998 30.3381 39.9636 30.5019C 40.1272 30.6658 40.2087 30.8598 40.2087 31.0841L 40.2087 32.7401C 40.2087 32.9644 40.1272 33.1585 39.9636 33.3223C 39.7991 33.4861 39.6056 33.5682 39.3809 33.5682L 33.5823 33.5682L 33.5823 39.3646C 33.5823 39.5891 33.5002 39.7829 33.3364 39.9471C 33.1724 40.1105 32.9782 40.1924 32.754 40.1924L 31.0973 40.1924C 30.873 40.1924 30.679 40.1105 30.5149 39.9471C 30.3511 39.7829 30.269 39.5891 30.269 39.3646L 30.269 33.5682L 24.4703 33.5682C 24.2458 33.5682 24.052 33.4863 23.888 33.3223C 23.7239 33.1585 23.6421 32.9644 23.6421 32.7401L 23.6421 31.0841C 23.6421 30.8598 23.7239 30.6658 23.888 30.5019C 24.0519 30.3381 24.246 30.2561 24.4703 30.2561L 30.269 30.2561L 30.269 24.4598C 30.269 24.2355 30.3511 24.0415 30.5149 23.8776C 30.6788 23.7136 30.873 23.6318 31.0973 23.6318L 32.7541 23.6318C 32.9782 23.6318 33.1724 23.7136 33.3364 23.8776C 33.5003 24.0415 33.5823 24.2355 33.5823 24.4598L 33.5823 30.2561Z"/>
+							</defs>
+						</svg>
+					</div>
+					<div class="gallery__dis">
+						<h1 class="gallery__h1">#</h1>
+						<p class="gallery__p1">#</p>
+						<p class="gallery__p2">#</p>
+					</div>
+				</figure>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="price" class="shop-section">
+			<div class="shop">
+				<figure class="version">
+					<h2>Стандартний</h2>
+					<h3>Безкоштовно</h3>
+					<h5>до 5 користувачів</h5>
+					<div class="availability">
+						<h5>головна сторінка юриста</h5>
+						<h5>задачі та проекти</h5>
+						<h5>проект</h5>
+						<h5>вся інформація про клієнта </h5>
+						<h5>клієнтський кабінет</h5>
+					</div>
+					<button class="blue-button">Розпочати роботу</button>
+				</figure>
+				<figure class="version">
+					<h2>Професійний</h2>
+					<h3>499 грн. на місяць</h3>
+					<h5>Без обмеженнь</h5>
+					<div class="availability">
+						<h5>головна сторінка юриста</h5>
+						<h5>задачі та проекти</h5>
+						<h5>проект</h5>
+						<h5>вся інформація про клієнта </h5>
+						<h5>клієнтський кабінет</h5>
+					</div>
+					<button class="blue-button">Розпочати роботу</button>
+				</figure>
+				<figure class="version">
+					<h2>Преміум</h2>
+					<h3>Договірна ціні</h3>
+					<h5>Індивідуальна адаптація системи</h5>
+					<div class="availability">
+						<h5>головна сторінка юриста</h5>
+						<h5>задачі та проекти</h5>
+						<h5>проект</h5>
+						<h5>вся інформація про клієнта </h5>
+						<h5>клієнтський кабінет</h5>
+					</div>
+					<button class="blue-button" onclick="openToMe()">Зв’язатися з нами</button>
+				</figure>
+				<figure class="version developing">
+					<div class="robo-logo">
+						<img src="img/robot.png">
+						<img src="img/gears.png">
+					</div>
+					<h6>В розробці</h6>
+					<h4>Ми не стоїмо на місці та саме в цей час готуємо для тебе нові оновлення та функціонал, для ще зручнішого користування системою, слідкуй за оновленнями skylaw</h4>
+				</figure>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="av" class="advantages-section blue-section">
+			<div class="advantages-block">
+				<figure class="advantages">
+					<img src="img/google_disk.png">
+					<h2>Зв’язок з Google</h2>
+					<h4>Створені задачі та події синхронізуються з Google Calendar, а для ще збереження безпечнішого збереження даних файли можна зберігати одразу в Google Drive</h4>
+				</figure>
+				<figure class="advantages">
+					<img src="img/clock.png">
+					<h2>Гнучка система білінгів </h2>
+					<h4>Система обліку активності (білінгу) дає змогу обчислювати як клієнтський так і не клієнтський час, передбачати план на різні типи та слідкувати за їх виконанням</h4>
+				</figure>
+				<figure class="advantages">
+					<img src="img/uk_roll.png">
+					<h2>Opendatabot</h2>
+					<h4>Надання доступу до відкритих даних реалізовано в партнерстві з Opendatabot, що гарантує точність та своєчасність отриманої інформації</h4>
+				</figure>
+				<figure class="advantages">
+					<img src="img/user.png">
+					<h2>Кабінет клієнта</h2>
+					<h4>Можливість бути блище до клієнта та надавати йому прозору та вичерпну інформацію щодо реалізації його проекту</h4>
+				</figure>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section class="owner-section">
+			<div class="cool-story">
+				<h2>Про проект SKYLAW</h2><br/>
+				<p>Ідея створення система виникла після того, як перебравши купу CRM систем доступних на ринку, ми дійшли висновку, що жодна з них не відповідає вимогам юристів.</p><br/>
+				<p>Більшість галузевих CRM рішень для юридичних компаній, нажаль, так і залишились незручними та не характерною для юриста логікою програмою, в додаток із незрозумілими для більшості юристів лідами, воронками продажів і статистикою роботи менеджерів.</p><br/>
+				<p>А ті, які мають хоч якісь ознаки галузевої спеціалізації для більшості компаній та юристів недоступні через свою високу вартість. Після чого захотілось створити доступний для більшості юристів продукт, який буде виключно юридичним: тільки для юристів та їх клієнтів, без компромісів.</p><br/>
+				<h3>Комфортної та ефективної роботи зі Skylaw!</h3>
+			</div>
+			<div class="owner">
+				<img src="img/mel=).png">
+				<h1>Мельник Олександр </h1>
+				<p class="tel">melnyk.o@skylaw.com.ua | +38 096 96 28 207</p>
+				<p class="respon-tel">melnyk.o@skylaw.com.ua </p>
+				<p class="respon-tel">+38 096 96 28 207</p>
+			</div>
+			<div class="logos">
+				<div class="logo">
+					<img src="img/skylaw.png">
+					<span>CEO Skylaw | Founder</span>
+				</div>
+				<div class="logo makmel-logo">
+					<img src="img/makmel_logo.png">
+					<span>Керуючий партнер | Адвокат</span>
+				</div>
+				<div class="cl"></div>
+			</div>
+			<div class="cl"></div>
+		</section>
+		<section class="tagline-section blue-section">
+			<div class="tagline">
+				<button class="blue-button">Спробувати безкоштовно</button>
+				<h2>SKYLAW – Швидка CRM спеціально для юристів</h2>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<footer>
+			<p class="copyright">SKYLAW © 2017 </p>
+			<p>Підтримка користувачів: support@skylaw.com.ua</p>
+			<nav class="footer__nav menu-menu">
+				<a href="#" class="helper"></a>
+				<a href="#sys">Про систему</a>
+				<a href="#price">Ціни</a>
+				<a href="#av">Можливості</a>
+				<a>Вхід в систему</a>
+				<a href="#" class="helper"></a>
+			</nav>
+			<div class="respon-menu">
+				<ul class="respon-menu__nav menu-menu">
+					<li><a href="#sys">Про систему</a></li>
+					<li><a href="#price">Ціни</a></li>
+					<li><a href="#av">Можливості</a></li>
+					<li><a class="respon-blue">Вхід в систему</a></li>
+					<li><a class="respon-blue" onclick="openReg()">Реєстрація</a></li>
+				</ul>
+				<div class="menu-button"></div>
+			</div>
+			<div class="cl"></div>
+		</footer>
+	</div>
+	<div class="blur" id="reg-modal">
+		<div class="modal_block reg-modal">
+			<i class="close-button"></i>
+			<h2 class="name-modal">Реєстрація</h2>
+			<form action="">
+				<span class="feld-tit">Пошта</span>
+				<input type="text" name="e-mail" placeholder="Ваша адреса e-mail">
+				<span class="feld-tit">Пароль</span>
+				<div class="pass-form">
+					<input class="aye-field" type="password" name="e-mail" placeholder="Пароль для входу в систему">
+					<i class="aye"></i>
+				</div>
+				<div class="cen-block">
+					<input type="submit" class="blue-button">
+					<div class="cl"></div>
+				</div>
+				<div class="gog-block">
+					<div class="cen-block gog-img-block">
+						<img class="gog-img" src="img/google.png" alt="google">
+						<span class="autor-gog">Авторизація через Google</span>
+						<div class="cl"></div>
+					</div>
+					<div class="cen-block">
+						<span class="dis-gog">Дозволяє швидко підключити Google Drive та Google Calendar</span>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="blur" id="to_me">
+		<div class="modal_block reg-modal">
+			<i class="close-button"></i>
+			<h2 class="name-modal">Зв’язатися з нами</h2>
+			<form action="">
+				<span class="feld-tit">Пошта</span>
+				<input type="text" name="e-mail" placeholder="Ваша адреса e-mail">
+				<span class="feld-tit">Телефон</span>
+				<input type="text" name="tel" placeholder="Ваш телефон для зв’язку">
+				<span class="feld-tit">Ваша пропозиція</span>
+				<textarea class="feld-area" placeholder="Що ви хотіли б від системи" name="suggestion" id="" cols="30" rows="4"></textarea>
+				<div class="cen-block">
+					<input type="submit" class="blue-button">
+					<div class="cl"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="blur">
+		<div class="modal_block suc-modal">
+			<i class="close-button"></i>
+			<h2 class="name-modal">Ви зареєстровані!</h2>
+			<div class="cen-block">
+				<span class="dis-gog">На вашу пошту надіслане посилання для підтвердження.</span>
+				<span class="go-to">Перейти до системи</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

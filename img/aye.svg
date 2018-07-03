@@ -1,0 +1,24 @@
+<svg width="27" height="27" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2312 -77)">
+<g id="Group">
+<g id="Subtract">
+<use xlink:href="#path0_fill" transform="translate(2318 86)" fill="#C4C4C4"/>
+</g>
+<g id="Ellipse 8">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(2312 77)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(2312 77)" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7.5 0C 4.31543 0 1.52881 1.80392 0 4.5C 1.52881 7.19608 4.31543 9 7.5 9C 10.6843 9 13.4709 7.19608 14.9998 4.5C 13.4709 1.80392 10.6843 0 7.5 0ZM 7.5 7C 8.88062 7 10 5.88071 10 4.5C 10 3.11929 8.88062 2 7.5 2C 6.11938 2 5 3.11929 5 4.5C 5 5.88071 6.11938 7 7.5 7Z"/>
+<path id="path1_fill" d="M 27 13.5C 27 20.9558 20.9558 27 13.5 27C 6.04416 27 0 20.9558 0 13.5C 0 6.04416 6.04416 0 13.5 0C 20.9558 0 27 6.04416 27 13.5Z"/>
+<path id="path2_stroke_2x" d="M 26 13.5C 26 20.4036 20.4036 26 13.5 26L 13.5 28C 21.5081 28 28 21.5081 28 13.5L 26 13.5ZM 13.5 26C 6.59644 26 1 20.4036 1 13.5L -1 13.5C -1 21.5081 5.49187 28 13.5 28L 13.5 26ZM 1 13.5C 1 6.59644 6.59644 1 13.5 1L 13.5 -1C 5.49187 -1 -1 5.49187 -1 13.5L 1 13.5ZM 13.5 1C 20.4036 1 26 6.59644 26 13.5L 28 13.5C 28 5.49187 21.5081 -1 13.5 -1L 13.5 1Z"/>
+</defs>
+</svg>
